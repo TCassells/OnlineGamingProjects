@@ -1,0 +1,31 @@
+﻿Build started 26/09/2013 12:47:36.
+     1>Project "C:\Users\lab422\Documents\Visual Studio 2010\Projects\Online Gaming Lab1\Online Gaming Lab1\Online Gaming Lab1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Online Gaming Lab1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\lab422\documents\visual studio 2010\projects\online gaming lab1\online gaming lab1\main.cpp(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\lab422\documents\visual studio 2010\projects\online gaming lab1\online gaming lab1\main.cpp(24): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : see declaration of 'kbhit'
+     1>c:\users\lab422\documents\visual studio 2010\projects\online gaming lab1\online gaming lab1\main.cpp(39): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\lab422\documents\visual studio 2010\projects\online gaming lab1\online gaming lab1\main.cpp(55): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : see declaration of 'kbhit'
+     1>c:\users\lab422\documents\visual studio 2010\projects\online gaming lab1\online gaming lab1\main.cpp(70): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lab422\Documents\Visual Studio 2010\Projects\Online Gaming Lab1\Debug\Online Gaming Lab1.exe" /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Online Gaming Lab1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\lab422\Documents\Visual Studio 2010\Projects\Online Gaming Lab1\Debug\Online Gaming Lab1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lab422\Documents\Visual Studio 2010\Projects\Online Gaming Lab1\Debug\Online Gaming Lab1.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\Net.obj
+         LINK : C:\Users\lab422\Documents\Visual Studio 2010\Projects\Online Gaming Lab1\Debug\Online Gaming Lab1.exe not found or not built by the last incremental link; performing full link
+         Online Gaming Lab1.vcxproj -> C:\Users\lab422\Documents\Visual Studio 2010\Projects\Online Gaming Lab1\Debug\Online Gaming Lab1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\lab422\Documents\Visual Studio 2010\Projects\Online Gaming Lab1\Debug\Online Gaming Lab1.exe;#1" /manifest "Debug\Online Gaming Lab1.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Online Gaming Lab1.unsuccessfulbuild".
+         Touching "Debug\Online Gaming Lab1.lastbuildstate".
+     1>Done Building Project "C:\Users\lab422\Documents\Visual Studio 2010\Projects\Online Gaming Lab1\Online Gaming Lab1\Online Gaming Lab1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.86
